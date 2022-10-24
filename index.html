@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Single Price Grid Component</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="./public/styles.css" />
+	</head>
+	<body
+		class="flex min-h-screen items-center justify-center bg-background font-Karla text-[15px] selection:bg-blue-400"
+	>
+		<div
+			class="container flex flex-col px-8 py-20 transition-all ease-in-out lg:scale-75 lg:px-48 lg:py-0 lg:text-[17px]"
+		>
+			<div
+				class="grid grid-cols-1 overflow-hidden text-white shadow-2xl lg:grid-cols-2 lg:grid-rows-[0fr_0fr]"
+			>
+				<div
+					class="flex flex-col gap-8 rounded-t-lg bg-white p-7 shadow-lg lg:col-span-2 lg:justify-around lg:p-14 lg:text-[1.35rem]"
+				>
+					<h1 class="text-xl font-bold text-heads lg:text-3xl">
+						Join our community
+					</h1>
+					<div>
+						<p class="font-bold text-textAlt lg:text-[1.45rem]">
+							30-day, hassle-free money back guarantee
+						</p>
+						<p class="mt-2 text-gray-300">
+							Gain access to our full library of tutorials along with expert
+							code reviews. Perfect for any developers who are serious about
+							honing their skills.
+						</p>
+					</div>
+				</div>
+				<div
+					class="flex flex-col justify-start gap-6 bg-transparent p-7 transition-all lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-3 lg:rounded-bl-lg lg:p-14"
+				>
+					<h2 class="w-fit bg-blue-300 text-xl font-bold lg:text-2xl">
+						Monthly Subscription
+					</h2>
+					<div class="flex items-center gap-2">
+						<p class="w-fit bg-blue-400 text-4xl font-bold">&dollar;29</p>
+						<p class="w-fit bg-blue-400 text-base lg:text-lg">per month</p>
+					</div>
+					<p class="w-fit bg-blue-400 lg:mb-2 lg:text-xl">
+						Full access for less than &dollar;1 a day
+					</p>
+					<button
+						class="rounded-md bg-textAlt py-3 shadow-lg transition-all duration-300 ease-in-out hover:bg-white hover:text-black hover:underline lg:py-5"
+					>
+						<span class="w-fit bg-blue-400">Sign Up</span>
+					</button>
+				</div>
+				<div
+					class="flex flex-col justify-start gap-6 rounded-b-lg bg-cardTwo p-7 shadow-xl lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-3 lg:rounded-b-none lg:rounded-br-lg lg:p-14"
+				>
+					<h3 class="text-xl font-bold lg:text-2xl">Why Us</h3>
+					<div>
+						<p>Tutorials by industry experts</p>
+						<p>Peer &amp; expert code review</p>
+						<p>Coding exercises</p>
+						<p>Access to our GitHub repos</p>
+						<p>Community forum</p>
+						<p>Flashcard decks</p>
+						<p>New videos every week</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
