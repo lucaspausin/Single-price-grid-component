@@ -807,26 +807,6 @@ video {
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
-.selection\:bg-white *::-moz-selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-white *::selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-black *::-moz-selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-black *::selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .selection\:bg-background *::-moz-selection{
   --tw-bg-opacity: 1;
   background-color: rgb(237 228 224 / var(--tw-bg-opacity));
@@ -835,26 +815,6 @@ video {
 .selection\:bg-background *::selection{
   --tw-bg-opacity: 1;
   background-color: rgb(237 228 224 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-cardOne *::-moz-selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(213 133 63 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-cardOne *::selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(213 133 63 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-cardTwo *::-moz-selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(231 194 162 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-cardTwo *::selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(231 194 162 / var(--tw-bg-opacity));
 }
 
 .selection\:bg-blue-400::-moz-selection{
@@ -867,26 +827,6 @@ video {
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
-.selection\:bg-white::-moz-selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-white::selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-black::-moz-selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-black::selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
 .selection\:bg-background::-moz-selection{
   --tw-bg-opacity: 1;
   background-color: rgb(237 228 224 / var(--tw-bg-opacity));
@@ -895,26 +835,6 @@ video {
 .selection\:bg-background::selection{
   --tw-bg-opacity: 1;
   background-color: rgb(237 228 224 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-cardOne::-moz-selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(213 133 63 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-cardOne::selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(213 133 63 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-cardTwo::-moz-selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(231 194 162 / var(--tw-bg-opacity));
-}
-
-.selection\:bg-cardTwo::selection{
-  --tw-bg-opacity: 1;
-  background-color: rgb(231 194 162 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-white:hover{
@@ -929,6 +849,16 @@ video {
 
 .hover\:underline:hover{
   text-decoration-line: underline;
+}
+
+.hover\:saturate-150:hover{
+  --tw-saturate: saturate(1.5);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:saturate-200:hover{
+  --tw-saturate: saturate(2);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @media (min-width: 1024px){
